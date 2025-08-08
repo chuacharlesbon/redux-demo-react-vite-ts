@@ -185,3 +185,5 @@ export const Home: FC<Props> = ({ title, data }) => {
         </section>
     </div>;
 };
+
+export default function Home2() {return <Home/>};

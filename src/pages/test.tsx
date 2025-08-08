@@ -185,3 +185,5 @@ export const Test: FC<Props> = ({ title, data }) => {
         </section>
     </div>;
 };
+
+export default function Test2() {return <Test/>};
