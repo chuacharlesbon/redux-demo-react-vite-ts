@@ -67,3 +67,5 @@ export default tseslint.config([
   },
 ])
 ```
+### Vite Test
+npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event @types/jest vitest

@@ -108,7 +108,7 @@ export const Home: FC<Props> = ({ title, data }) => {
                 <div className="border border-stone-300 shadow-md rounded-md p-4">
                     <div className="flex flex-row justify-start">
                         <p className="text-lg text-stone-700 mr-4">Pending ({pendingList.length})</p>
-                        <button className="mx-2" onClick={() => setIsDialogOpen(true)}>
+                        <button aria-label="add-todo" className="mx-2" onClick={() => setIsDialogOpen(true)}>
                             <FaCirclePlus />
                         </button>
                         <button className="mx-2" onClick={() => dispatch(clearPending())}>
